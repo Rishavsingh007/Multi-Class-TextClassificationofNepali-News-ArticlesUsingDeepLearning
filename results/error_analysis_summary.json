@@ -1,0 +1,293 @@
+{
+  "overall_accuracy": 0.6988527724665392,
+  "total_samples": 1046,
+  "total_errors": 315,
+  "error_rate": 0.3011472275334608,
+  "worst_class": {
+    "name": "Business",
+    "error_rate": 0.7391304347826086
+  },
+  "best_class": {
+    "name": "Migration",
+    "error_rate": 0.0
+  },
+  "top_confused_pairs": [
+    {
+      "true_class": "Business",
+      "predicted_class": "Interview",
+      "count": 19
+    },
+    {
+      "true_class": "Interview",
+      "predicted_class": "Health",
+      "count": 15
+    },
+    {
+      "true_class": "Society",
+      "predicted_class": "Health",
+      "count": 15
+    },
+    {
+      "true_class": "Economy",
+      "predicted_class": "Health",
+      "count": 12
+    },
+    {
+      "true_class": "Automobiles",
+      "predicted_class": "Health",
+      "count": 10
+    },
+    {
+      "true_class": "Bank",
+      "predicted_class": "Health",
+      "count": 10
+    },
+    {
+      "true_class": "World",
+      "predicted_class": "Health",
+      "count": 10
+    },
+    {
+      "true_class": "Economy",
+      "predicted_class": "Bank",
+      "count": 9
+    },
+    {
+      "true_class": "Entertainment",
+      "predicted_class": "Sports",
+      "count": 9
+    },
+    {
+      "true_class": "Interview",
+      "predicted_class": "Business",
+      "count": 9
+    }
+  ],
+  "confidence_stats": {
+    "correct_mean": 0.9062286019325256,
+    "incorrect_mean": 0.5216498970985413,
+    "high_confidence_errors": 77
+  },
+  "per_class_stats": [
+    {
+      "class_id": 0,
+      "class_name": "Agriculture",
+      "total_samples": 30,
+      "correct": 21,
+      "errors": 9,
+      "error_rate": 0.3,
+      "accuracy": 0.7,
+      "most_common_error": "Health",
+      "most_common_error_count": 7
+    },
+    {
+      "class_id": 1,
+      "class_name": "Automobiles",
+      "total_samples": 37,
+      "correct": 19,
+      "errors": 18,
+      "error_rate": 0.4864864864864865,
+      "accuracy": 0.5135135135135135,
+      "most_common_error": "Health",
+      "most_common_error_count": 10
+    },
+    {
+      "class_id": 2,
+      "class_name": "Bank",
+      "total_samples": 93,
+      "correct": 69,
+      "errors": 24,
+      "error_rate": 0.25806451612903225,
+      "accuracy": 0.7419354838709677,
+      "most_common_error": "Health",
+      "most_common_error_count": 10
+    },
+    {
+      "class_id": 3,
+      "class_name": "Blog",
+      "total_samples": 39,
+      "correct": 34,
+      "errors": 5,
+      "error_rate": 0.1282051282051282,
+      "accuracy": 0.8717948717948718,
+      "most_common_error": "Sports",
+      "most_common_error_count": 2
+    },
+    {
+      "class_id": 4,
+      "class_name": "Business",
+      "total_samples": 46,
+      "correct": 12,
+      "errors": 34,
+      "error_rate": 0.7391304347826086,
+      "accuracy": 0.26086956521739135,
+      "most_common_error": "Interview",
+      "most_common_error_count": 19
+    },
+    {
+      "class_id": 5,
+      "class_name": "Economy",
+      "total_samples": 90,
+      "correct": 55,
+      "errors": 35,
+      "error_rate": 0.3888888888888889,
+      "accuracy": 0.6111111111111112,
+      "most_common_error": "Health",
+      "most_common_error_count": 12
+    },
+    {
+      "class_id": 6,
+      "class_name": "Education",
+      "total_samples": 28,
+      "correct": 23,
+      "errors": 5,
+      "error_rate": 0.17857142857142858,
+      "accuracy": 0.8214285714285714,
+      "most_common_error": "Society",
+      "most_common_error_count": 3
+    },
+    {
+      "class_id": 7,
+      "class_name": "Employment",
+      "total_samples": 45,
+      "correct": 30,
+      "errors": 15,
+      "error_rate": 0.3333333333333333,
+      "accuracy": 0.6666666666666667,
+      "most_common_error": "Agriculture",
+      "most_common_error_count": 4
+    },
+    {
+      "class_id": 8,
+      "class_name": "Entertainment",
+      "total_samples": 95,
+      "correct": 71,
+      "errors": 24,
+      "error_rate": 0.25263157894736843,
+      "accuracy": 0.7473684210526316,
+      "most_common_error": "Sports",
+      "most_common_error_count": 9
+    },
+    {
+      "class_id": 9,
+      "class_name": "Health",
+      "total_samples": 27,
+      "correct": 18,
+      "errors": 9,
+      "error_rate": 0.3333333333333333,
+      "accuracy": 0.6666666666666667,
+      "most_common_error": "Society",
+      "most_common_error_count": 4
+    },
+    {
+      "class_id": 10,
+      "class_name": "Interview",
+      "total_samples": 50,
+      "correct": 17,
+      "errors": 33,
+      "error_rate": 0.66,
+      "accuracy": 0.33999999999999997,
+      "most_common_error": "Health",
+      "most_common_error_count": 15
+    },
+    {
+      "class_id": 11,
+      "class_name": "Literature",
+      "total_samples": 37,
+      "correct": 30,
+      "errors": 7,
+      "error_rate": 0.1891891891891892,
+      "accuracy": 0.8108108108108107,
+      "most_common_error": "Employment",
+      "most_common_error_count": 2
+    },
+    {
+      "class_id": 12,
+      "class_name": "Migration",
+      "total_samples": 16,
+      "correct": 16,
+      "errors": 0,
+      "error_rate": 0.0,
+      "accuracy": 1.0,
+      "most_common_error": "N/A",
+      "most_common_error_count": 0
+    },
+    {
+      "class_id": 13,
+      "class_name": "Opinion",
+      "total_samples": 75,
+      "correct": 61,
+      "errors": 14,
+      "error_rate": 0.18666666666666668,
+      "accuracy": 0.8133333333333334,
+      "most_common_error": "Bank",
+      "most_common_error_count": 3
+    },
+    {
+      "class_id": 14,
+      "class_name": "Politics",
+      "total_samples": 83,
+      "correct": 81,
+      "errors": 2,
+      "error_rate": 0.024096385542168676,
+      "accuracy": 0.9759036144578314,
+      "most_common_error": "Health",
+      "most_common_error_count": 2
+    },
+    {
+      "class_id": 15,
+      "class_name": "Society",
+      "total_samples": 53,
+      "correct": 27,
+      "errors": 26,
+      "error_rate": 0.49056603773584906,
+      "accuracy": 0.5094339622641509,
+      "most_common_error": "Health",
+      "most_common_error_count": 15
+    },
+    {
+      "class_id": 16,
+      "class_name": "Sports",
+      "total_samples": 98,
+      "correct": 79,
+      "errors": 19,
+      "error_rate": 0.19387755102040816,
+      "accuracy": 0.8061224489795918,
+      "most_common_error": "Blog",
+      "most_common_error_count": 7
+    },
+    {
+      "class_id": 17,
+      "class_name": "Technology",
+      "total_samples": 17,
+      "correct": 7,
+      "errors": 10,
+      "error_rate": 0.5882352941176471,
+      "accuracy": 0.4117647058823529,
+      "most_common_error": "Health",
+      "most_common_error_count": 2
+    },
+    {
+      "class_id": 18,
+      "class_name": "Tourism",
+      "total_samples": 40,
+      "correct": 33,
+      "errors": 7,
+      "error_rate": 0.175,
+      "accuracy": 0.825,
+      "most_common_error": "Economy",
+      "most_common_error_count": 3
+    },
+    {
+      "class_id": 19,
+      "class_name": "World",
+      "total_samples": 47,
+      "correct": 28,
+      "errors": 19,
+      "error_rate": 0.40425531914893614,
+      "accuracy": 0.5957446808510638,
+      "most_common_error": "Health",
+      "most_common_error_count": 10
+    }
+  ]
+}

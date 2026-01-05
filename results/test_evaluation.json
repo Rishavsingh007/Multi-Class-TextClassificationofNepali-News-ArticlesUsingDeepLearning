@@ -1,0 +1,156 @@
+{
+  "model_name": "xlm-roberta-base",
+  "num_classes": 20,
+  "test_samples": 1046,
+  "accuracy": 0.6988527724665392,
+  "precision_weighted": 0.7565149837993251,
+  "precision_macro": 0.7302672173206487,
+  "recall_weighted": 0.6988527724665392,
+  "recall_macro": 0.6844734213950764,
+  "f1_weighted": 0.7135881410234368,
+  "f1_macro": 0.6843217039667874,
+  "misclassified_samples": 315,
+  "error_rate": 0.3011472275334608,
+  "per_class_metrics": {
+    "0": {
+      "label": "Agriculture",
+      "support": 30,
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1": 0.8235294117647058
+    },
+    "1": {
+      "label": "Automobiles",
+      "support": 37,
+      "precision": 1.0,
+      "recall": 0.5135135135135135,
+      "f1": 0.6785714285714285
+    },
+    "2": {
+      "label": "Bank",
+      "support": 93,
+      "precision": 1.0,
+      "recall": 0.7419354838709677,
+      "f1": 0.8518518518518519
+    },
+    "3": {
+      "label": "Blog",
+      "support": 39,
+      "precision": 1.0,
+      "recall": 0.8717948717948718,
+      "f1": 0.9315068493150686
+    },
+    "4": {
+      "label": "Business",
+      "support": 46,
+      "precision": 1.0,
+      "recall": 0.2608695652173913,
+      "f1": 0.41379310344827586
+    },
+    "5": {
+      "label": "Economy",
+      "support": 90,
+      "precision": 1.0,
+      "recall": 0.6111111111111112,
+      "f1": 0.7586206896551725
+    },
+    "6": {
+      "label": "Education",
+      "support": 28,
+      "precision": 1.0,
+      "recall": 0.8214285714285714,
+      "f1": 0.9019607843137255
+    },
+    "7": {
+      "label": "Employment",
+      "support": 45,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "8": {
+      "label": "Entertainment",
+      "support": 95,
+      "precision": 1.0,
+      "recall": 0.7473684210526316,
+      "f1": 0.8554216867469879
+    },
+    "9": {
+      "label": "Health",
+      "support": 27,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "10": {
+      "label": "Interview",
+      "support": 50,
+      "precision": 1.0,
+      "recall": 0.34,
+      "f1": 0.5074626865671642
+    },
+    "11": {
+      "label": "Literature",
+      "support": 37,
+      "precision": 1.0,
+      "recall": 0.8108108108108109,
+      "f1": 0.8955223880597014
+    },
+    "12": {
+      "label": "Migration",
+      "support": 16,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "13": {
+      "label": "Opinion",
+      "support": 75,
+      "precision": 1.0,
+      "recall": 0.8133333333333334,
+      "f1": 0.8970588235294117
+    },
+    "14": {
+      "label": "Politics",
+      "support": 83,
+      "precision": 1.0,
+      "recall": 0.9759036144578314,
+      "f1": 0.9878048780487805
+    },
+    "15": {
+      "label": "Society",
+      "support": 53,
+      "precision": 1.0,
+      "recall": 0.5094339622641509,
+      "f1": 0.6749999999999999
+    },
+    "16": {
+      "label": "Sports",
+      "support": 98,
+      "precision": 1.0,
+      "recall": 0.8061224489795918,
+      "f1": 0.8926553672316384
+    },
+    "17": {
+      "label": "Technology",
+      "support": 17,
+      "precision": 1.0,
+      "recall": 0.4117647058823529,
+      "f1": 0.5833333333333334
+    },
+    "18": {
+      "label": "Tourism",
+      "support": 40,
+      "precision": 1.0,
+      "recall": 0.825,
+      "f1": 0.9041095890410958
+    },
+    "19": {
+      "label": "World",
+      "support": 47,
+      "precision": 1.0,
+      "recall": 0.5957446808510638,
+      "f1": 0.7466666666666666
+    }
+  }
+}
