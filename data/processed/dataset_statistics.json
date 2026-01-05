@@ -1,0 +1,45 @@
+{
+  "total_documents": 6972,
+  "num_categories": 20,
+  "category_distribution": {
+    "Sports": 650,
+    "Entertainment": 634,
+    "Bank": 617,
+    "Economy": 600,
+    "Politics": 550,
+    "Opinion": 500,
+    "Society": 353,
+    "Interview": 330,
+    "World": 313,
+    "Business": 306,
+    "Employment": 304,
+    "Tourism": 265,
+    "Blog": 259,
+    "Literature": 251,
+    "Automobiles": 246,
+    "Agriculture": 200,
+    "Education": 185,
+    "Health": 180,
+    "Technology": 118,
+    "Migration": 111
+  },
+  "text_length_stats": {
+    "mean": 2678.24297188755,
+    "median": 1364.0,
+    "min": 2,
+    "max": 66772,
+    "std": 3872.1436975628208
+  },
+  "word_count_stats": {
+    "mean": 589.0576592082616,
+    "median": 244.0,
+    "min": 1,
+    "max": 28111,
+    "std": 1227.3012802406827
+  },
+  "class_imbalance": {
+    "min_count": 111,
+    "max_count": 650,
+    "imbalance_ratio": 5.8558558558558556
+  }
+}

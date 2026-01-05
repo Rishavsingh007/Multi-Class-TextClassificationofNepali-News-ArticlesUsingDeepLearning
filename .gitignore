@@ -1,0 +1,51 @@
+# PyTorch Model Files
+*.pt
+*.pth
+*.pkl
+*.pth.tar
+*.ckpt
+
+# Model directories (but keep structure with .gitkeep files)
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+models/saved_models/*
+!models/saved_models/.gitkeep
+models/pretrained/*
+!models/pretrained/.gitkeep
+models/best_model.pt
+models/final_model.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.log

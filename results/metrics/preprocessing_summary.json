@@ -1,0 +1,33 @@
+{
+  "dataset_info": {
+    "total_documents": 6972,
+    "after_cleaning": 6969,
+    "removed_empty": 3,
+    "num_categories": 20
+  },
+  "splits": {
+    "train": {
+      "count": 4878,
+      "percentage": 69.99569522169608
+    },
+    "validation": {
+      "count": 1045,
+      "percentage": 14.994977758645431
+    },
+    "test": {
+      "count": 1046,
+      "percentage": 15.009327019658489
+    }
+  },
+  "tokenizer": {
+    "model": "xlm-roberta-base",
+    "vocab_size": 250002,
+    "max_length": 512
+  },
+  "class_weights": {
+    "num_classes": 20,
+    "min_weight": 0.536043956043956,
+    "max_weight": 3.126923076923077,
+    "avg_weight": 1.3061241729260513
+  }
+}
