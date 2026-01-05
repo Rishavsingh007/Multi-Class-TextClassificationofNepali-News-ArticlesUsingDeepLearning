@@ -74,11 +74,9 @@ cd frontend
 streamlit run app.py
 ```
 
-## License
 
-[Your License]
 
 ## Author
 
-[Your Name]
-[Your Student ID]
+Rishav Singh
+NP01MS7A240010
