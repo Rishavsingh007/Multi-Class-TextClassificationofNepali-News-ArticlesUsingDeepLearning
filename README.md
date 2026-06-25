@@ -489,13 +489,5 @@ After training and evaluation, the following results are generated:
 ## Author
 
 **Rishav Singh**  
-Student ID: NP01MS7A240010  
-MSc in Information Technology  
-Islington College
-
-
-## License
-
-This project is for academic/research purposes. Please refer to the dataset citation for dataset usage terms.
 
 **Last Updated**: January 2026
